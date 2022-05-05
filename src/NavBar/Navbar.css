@@ -1,0 +1,39 @@
+body {
+  overflow-x: hidden;
+}
+.nav {
+  height: 70px;
+  width: 100%;
+  margin-bottom: 20px;
+  overflow-x: hidden;
+}
+.navigation {
+  height: 70px;
+  width: 100%;
+  background-color: darkturquoise;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+}
+
+.items {
+  text-decoration: none;
+  flex: 1;
+  color: azure;
+  font-size: large;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+
+.search {
+  flex-grow: 1;
+  width: 100px;
+  height: 35px;
+  margin-right: 30px;
+  border-radius: 15px;
+  border-style: none;
+  background-color: #dbdbdb;
+  /* outline-style: none; */
+  outline-color: aquamarine;
+}

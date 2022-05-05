@@ -1,0 +1,24 @@
+.Content {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  cursor: pointer;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Card {
+  height: 300px;
+  width: 300px;
+  background-color: aqua;
+  box-shadow: 10px solid #dbdbdb;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  /* transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  top: 50%; */
+  margin: 10px;
+  cursor: pointer;
+}
